@@ -40,6 +40,7 @@ faList = []
 faAList = []
 
 while True:
+    print('Please input result file name:')
     path = input()
     if path == 'exit()':
             exit()
@@ -112,7 +113,7 @@ while True:
                 F1 += 2*intersectionLen*intersectionLen/(lenCi * lenAi)/(intersectionLen/lenCi+intersectionLen/lenAi)
 
             
-    print('Answer F1:\t' + str(F1/ len(ftAList)))
+    print('Triple F1:\t' + str(F1/ len(ftAList)))
 
     F1 = 0
     for i in range(len(ftAList)):
